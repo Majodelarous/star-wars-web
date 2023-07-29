@@ -1,0 +1,192 @@
+body{
+    background-image:url(https://cdn.wallpapersafari.com/1/97/co341S.jpg);
+    color: white;
+    text-align: center;
+   }
+
+
+form{
+  background-color: black;
+ }
+
+img.derecha{
+  float: right;
+  width: 20%;
+  height: 20%;
+  margin-right: 15%;
+  text-align: right;
+}
+img.izquierda{
+  float: left;
+  width: 20%;
+  height: 20%;
+ margin-left: 15%; 
+  text-align: left;
+}
+.title-misiones{
+    color: white;
+    font-family:'Roboto Mono', monospace;
+    font-size-adjust: 40%;
+    background-color: black;
+    
+}
+
+.title-masivas{
+    color:white ;
+    font-family:'Roboto Mono', monospace ;
+    font-size-adjust: 50px;
+    background-color: black; 
+   
+}
+
+/*jedis*/
+.titulo-3{
+    color: rgb(77, 76, 76);
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+}
+
+/*death star*/
+.titulo-1{
+    color: rgb(77, 76, 76) ;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+/*dark side*/
+.titulo-2{
+  font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em rgb(255, 250, 250)
+}
+
+/*titulo princial*/
+ main .title-thegalaxy{
+    font-family: 'Tektur', cursive;
+    font-size: 100px;
+    color: rgb(248, 193, 12) ;
+    text-align: center;
+}
+/*sub titulo*/
+main .sub-titulo{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    text-align:center;
+    color:rgb(248, 193, 12) ;
+    text-shadow: 0.1em 0.1em 0.1em rgb(126, 120, 120)
+     }
+
+/*BOTONES*/
+.boton1{
+    background-color: black;
+    font-size: 35px;
+    border-radius: 1%;
+    color:rgb(105, 100, 100);
+    text-decoration: none;
+    text-align: center;
+}
+.boton2{
+    background-color: black ;
+    font-size: 35px;
+    border-radius: 1%;
+    color: rgb(105, 100, 100);
+    text-decoration: none;
+    text-align: right;
+}
+.boton3{
+    background-color: black ;
+    font-size: 35px;
+    color: rgb(105, 100, 100);
+    text-decoration: none;
+    text-align: left;
+
+}
+
+/* CONTENEDORES DE INFO*/
+
+.estrella {
+    height: 450px;
+    padding: 10px;
+   
+  }
+  
+  .estrella .contenedor {
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(153, 58, 241);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+   
+  
+    
+  }
+  
+  .oscuro {
+    /* espacio ente cada cuadro*/
+    height: 430px;
+    padding: 10px;
+
+  }
+  
+  
+  .oscuro .contenedor {
+    /*largo del cuadro*/
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .jedis {
+    height: 450px;
+    padding: 10px;
+  }
+  
+  .jedis .contenedor {
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(102, 147, 206);
+    opacity: .5;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  /*IMAGENES*/
+
+ .img-1{
+  text-align: left;
+
+ }
+ 
+
+ .img-2{
+  text-align: right;
+ }
+
+
+
+ .img-3{
+  text-align: right;
+ }
+
+.img-4{
+  text-align: center;
+}
+ 
+
+
+
+/*estrella*/
+/*
+selector{
+    propiedad : valor ;
+    border radius- redondear imagen
+}
